@@ -1,26 +1,26 @@
-FAIL  problem-a/problem.spec.js
+ FAIL  problem-a/problem.spec.js
   Used test-driven development
-    ✕ Used Jest to pre-test code, saved in `pretest.txt`
+    ✕ Used Jest to pre-test code, saved in `pretest.txt` (1 ms)
   Source code is valid
     ✓ HTML validates without errors (2 ms)
-    ✕ CSS validates without errors (57 ms)
+    ✕ CSS validates without errors (88 ms)
   Has required HTML
-    ✕ Specifies charset (3 ms)
-    ✕ Includes page title
+    ✕ Specifies charset (2 ms)
+    ✕ Includes page title (1 ms)
     ✕ Includes author metadata
     ✕ Has a top-level heading
-    ✕ Has an image
+    ✕ Has an image (1 ms)
     ✕ Includes a paragraph
     ✕ Includes a hyperlink in the paragraph (1 ms)
     ✕ Includes a list
     ✕ List has at least 3 items
   Has required CSS
-    ✕ Links in local stylesheet (1 ms)
+    ✕ Links in local stylesheet
     ✕ Body has default font size (1 ms)
     ✕ Body has default font family
-    ✕ Paragraphs have specified line height (1 ms)
-    ✕ Images have constrained height
-    ✕ Important list item is colored (1 ms)
+    ✕ Paragraphs have specified line height
+    ✕ Images have constrained height (1 ms)
+    ✕ Important list item is colored
 
   ● Used test-driven development › Used Jest to pre-test code, saved in `pretest.txt`
 
@@ -306,5 +306,5 @@ FAIL  problem-a/problem.spec.js
 Test Suites: 1 failed, 1 total
 Tests:       17 failed, 1 passed, 18 total
 Snapshots:   0 total
-Time:        0.559 s, estimated 1 s
+Time:        0.792 s, estimated 1 s
 Ran all test suites matching /problem-a/i.
