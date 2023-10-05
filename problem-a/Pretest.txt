@@ -1,4 +1,4 @@
-FAIL  problem-a/problem.spec.js
+FAIL  problem-a/problem.spec.jss
   Used test-driven development
     ✕ Used Jest to pre-test code, saved in `pretest.txt`
   Source code is valid
